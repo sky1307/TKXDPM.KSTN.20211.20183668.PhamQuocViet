@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="47.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../home/sky/Pictures/Screenshot%20from%202021-11-05%2003-13-28.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="107.0" layoutY="46.0" prefHeight="402.0" prefWidth="587.0" style="-fx-border-color: #BBBBBB; -fx-background-color: #FFFFFF;">
+         <children>
+            <TextField layoutX="67.0" layoutY="45.0" prefHeight="24.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="Name" />
+            <Button layoutX="212.0" layoutY="338.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="164.0" style="-fx-background-color: #FF0000;" text="Confim delivery" textFill="WHITE" />
+            <TextField layoutX="66.0" layoutY="86.0" prefHeight="24.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="Phone" />
+            <TextField layoutX="64.0" layoutY="127.0" prefHeight="24.0" prefWidth="95.0" style="-fx-background-color: #FFFFFF;" text="Provive/City" />
+            <TextField layoutX="64.0" layoutY="178.0" prefHeight="24.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="Address" />
+            <TextField accessibleRole="TEXT_AREA" layoutX="62.0" layoutY="241.0" prefHeight="24.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="Shipping " />
+            <TextField layoutX="184.0" layoutY="45.0" prefHeight="24.0" prefWidth="338.0" />
+            <TextField layoutX="184.0" layoutY="86.0" prefHeight="24.0" prefWidth="338.0" />
+            <TextField layoutX="184.0" layoutY="167.0" prefHeight="46.0" prefWidth="338.0" />
+            <TextField accessibleRole="TEXT_AREA" layoutX="62.0" layoutY="262.0" prefHeight="24.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="Instrutions" />
+            <TextField layoutX="184.0" layoutY="229.0" prefHeight="69.0" prefWidth="338.0" />
+            <MenuButton layoutX="184.0" layoutY="127.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="114.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
